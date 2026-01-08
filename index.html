@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dwarf Galaxy Restaurant</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header id="hero">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div class="meteors-container">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="comet comet-blue"></div>
+      <div class="comet comet-red"></div>
+
+      <div class="hero-content">
+        <h1 class="glow-text">MILKY WAY</h1>
+        <p class="subtitle">Dining at the Edge of the Galaxy</p>
+        <a href="#menu" class="cta-button">Engage Warp Drive</a>
+      </div>
+    </header>
+    <main>
+      <section id="menu">
+        <h2 class="section-title">Interplanetary Menu</h2>
+
+        <div class="filter-container">
+          <button class="filter-btn active" data-id="all">All Systems</button>
+          <button class="filter-btn" data-id="mains">Main Course</button>
+          <button class="filter-btn" data-id="sides">Sides</button>
+          <button class="filter-btn" data-id="desserts">Desserts</button>
+          <button class="filter-btn" data-id="drinks">Fluids</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>"&copy; 3025 Milky Way Restaurant. Nowhere, Coordinates X-99.</p>
+    </footer>
+
+    <script src="scripts/menu.js"></script>
+  </body>
+</html>
